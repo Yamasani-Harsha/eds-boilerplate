@@ -1,0 +1,3 @@
+/*! Copyright 2025 Adobe
+All Rights Reserved. */
+import{Initializer as o}from"@dropins/tools/lib.js";import{FetchGraphQL as i}from"@dropins/tools/fetch-graphql.js";const e=new o({init:async t=>{const n={};e.config.setConfig({...n,...t})},listeners:()=>[]}),s=e.config,{setEndpoint:a,setFetchGraphQlHeader:h,removeFetchGraphQlHeader:f,setFetchGraphQlHeaders:p,fetchGraphQl:g,getConfig:l}=new i().getMethods(),d=()=>"Howdy!";export{s as config,d as customDropin,g as fetchGraphQl,l as getConfig,e as initialize,f as removeFetchGraphQlHeader,a as setEndpoint,h as setFetchGraphQlHeader,p as setFetchGraphQlHeaders};
